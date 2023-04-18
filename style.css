@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #959595;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  position: relative;
+  width: 350px;
+  height: 340px;
+  background-color: #fff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card .title {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+}
+.card .minNum {
+  position: absolute;
+  top: 120px;
+  left: 80px;
+  font-size: 50px;
+}
+.card .bar {
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translateX(-65%);
+  font-size: 50px;
+}
+.card .maxNum {
+  position: absolute;
+  top: 120px;
+  right: 50px;
+  font-size: 50px;
+}
+.card .input {
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.card .btn {
+  position: absolute;
+  top: 260px;
+  left: 50%;
+  transform: translateX(-55%);
+  border-radius: 4px;
+  width: 100px;
+  height: 50px;
+  background: #959595;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
