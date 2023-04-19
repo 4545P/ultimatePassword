@@ -1,0 +1,8 @@
+@import "./node_modules/bootstrap/scss/functions";
+
+@import "./stylesheet/helprs/variables";
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+//上面是套件 下面是自己的css
+@import "./stylesheet/layout/layout";
+@import "./stylesheet/pages/home";
