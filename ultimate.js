@@ -30,7 +30,7 @@ button.addEventListener("click", function () {
   const input = document.querySelector(".input");
   const num = Number(input.value);
   if (num === pwd) {
-    console.log("恭喜你猜對了");
+    window.alert("恭喜你猜對了");
   } else if (num > pwd && num < y) {
     maxNum.innerText = num;
     y = num;
